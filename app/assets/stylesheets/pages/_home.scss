@@ -1,1 +1,117 @@
 // Specific CSS for your home-page
+body {
+  background-color:#E3F6F5;
+  font-family: Roboto;
+  font-size: large;
+}
+
+.btn-blue {
+  background-color: #E3F6F5;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color:#078080;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.btn-blue:hover {
+  color: #F45D48;
+  background-color: #078080;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+a {
+  color:#078080;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+i:hover {
+  color: #F45D48;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  color: #078080;
+  font-family: Roboto;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h2 {
+  color: #078080;
+  font-family: Roboto;
+}
+
+h3 {
+  color: #078080;
+  font-family: Roboto;
+}
+
+p {
+  color: #F45D48;
+  font-family: Roboto;
+  margin-block-end: 2em;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-cover {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-white {
+  background: #F8F5F2;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+  width: 700px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+
+i {
+  color: #078080;
+  font-size: 80px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}

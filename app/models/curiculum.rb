@@ -1,0 +1,2 @@
+class Curiculum < ApplicationRecord
+end

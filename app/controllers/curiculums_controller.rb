@@ -4,6 +4,6 @@ class CuriculumsController < ApplicationController
   end
 
   def show
-    @curiculum = Curiculum.find(:id)
+    @curiculum = Curiculum.find(params[:id])
   end
 end

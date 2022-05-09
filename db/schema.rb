@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2022_05_09_123157) do
-=======
 ActiveRecord::Schema.define(version: 2022_04_24_132704) do
->>>>>>> d2a58eb2001cdcaaaef6bfa32db77ddba877fa68
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,13 +20,4 @@ ActiveRecord::Schema.define(version: 2022_04_24_132704) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-<<<<<<< HEAD
-  create_table "curriculums", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-=======
->>>>>>> d2a58eb2001cdcaaaef6bfa32db77ddba877fa68
 end

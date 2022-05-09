@@ -1,2 +1,0 @@
-class Curriculum < ApplicationRecord
-end

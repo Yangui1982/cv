@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +28,34 @@
     <div class="card-white">
        <h2>R.P.G. 🎲</h2>
        <img src="images/rpg.jpg" class="img-circle img-cover" width="150px" alt="my picture">
+=======
+<div class="container">
+    <div class="card-white" id="intro">
+      <h1>Hi! I'm Jean-Guillaume, a web developer 😁</h1>
+      <%= image_tag "profile.jpg", class: "img-circle", width: 500, alt: "my picture" %>
+      <p> I'm new at developing web app ! I love music (I play guitar^^), RPG, Aïkido and retro gaming. I took the Bootcamp "Le Wagon" to learn and change my professional life!  </p>
+      <% @curiculums.each do |curiculum| %>
+        <%= link_to 'Discover My Resume', curiculum, class: 'btn-blue'%>
+      <% end %>
+    </div>
+    <div class="card-white">
+      <h2>Guitar 🎸</h2>
+      <%= image_tag "guitar2.jpg", class: "img-circle img-cover", alt: "my picture" %>
+      <p>I've been a self-taught guitar player for the past 25 years</p>
+    </div>
+    <div class="card-white">
+       <h2>R.P.G. 🎲</h2>
+       <%= image_tag "rpg.jpg", class: "img-circle img-cover", width: 150, alt: "my picture" %>
+>>>>>>> d2a58eb2001cdcaaaef6bfa32db77ddba877fa68
        <p>I've been playing to several R.P.G since 1998, as Dungeon Master or Player</p>
     </div>
     <div class="card-white">
        <h2>Aïkido 🥋</h2>
+<<<<<<< HEAD
        <img src="images/aikido2.jpg" class="img-circle img-cover" width="150px" alt="my picture">
+=======
+       <%= image_tag "aikido2.jpg", class: "img-circle img-cover", width: 150, alt: "my picture" %>
+>>>>>>> d2a58eb2001cdcaaaef6bfa32db77ddba877fa68
       <p>I'm an aïkidoka since several years and I usually teach this martial art  </p>
     </div>
     <div class="card-white">
@@ -59,5 +83,8 @@
       </ul>
     </div>
   </div>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+>>>>>>> d2a58eb2001cdcaaaef6bfa32db77ddba877fa68
